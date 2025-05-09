@@ -26,7 +26,7 @@ A Telegram bot that generates high-quality images based on user-provided text pr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/TeleImageGen.git
+   git clone https://github.com/iwebnoob/TeleImageGen.git
    cd TeleImageGen
    ```
 
@@ -42,7 +42,7 @@ A Telegram bot that generates high-quality images based on user-provided text pr
 
 4. Run the bot:
    ```bash
-   python bot.py
+   python TeleImageGen.py
    ```
 
 ## Usage
@@ -61,7 +61,7 @@ A Telegram bot that generates high-quality images based on user-provided text pr
 
 ```
 TeleImageGen/
-├── bot.py                # Main bot script
+├── TeleImageGen.py                # Main bot script
 ├── requirements.txt      # Python dependencies
 ├── LICENSE               # MIT License
 └── README.md             # This file
