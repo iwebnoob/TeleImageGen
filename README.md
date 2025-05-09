@@ -5,21 +5,21 @@
 ![Telegram](https://img.shields.io/badge/Telegram-Bot-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-A Telegram bot that generates high-quality images from text prompts, supporting both Persian and English inputs. Published by **DIGI-X**.
+A Telegram bot that generates high-quality images based on user-provided text prompts. Published by **DIGI-X**.
 
 ## Features
 
 - 📸 Generate images from Persian or English text prompts.
-- 🌐 Automatically translates Persian prompts to English for improved results.
+- 🌐 Automatic translation of Persian prompts to English for better results.
 - 🔐 User authentication via phone number and Telegram channel membership.
-- 📊 Tracks user statistics (e.g., number of images generated).
-- 🚀 Asynchronous processing for handling multiple requests efficiently.
-- 🛠 Robust error handling and logging for reliable performance.
+- 📊 Tracks user statistics (e.g., number of generated images).
+- 🚀 Asynchronous processing for handling multiple requests.
+- 🛠 Error handling and logging for robust performance.
 
 ## Prerequisites
 
 - Python 3.8 or higher
-- A Telegram Bot Token (obtain from [BotFather](https://t.me/BotFather))
+- Telegram Bot Token (obtain from [BotFather](https://t.me/BotFather))
 - Required Python packages (listed in `requirements.txt`)
 
 ## Installation
@@ -63,8 +63,6 @@ A Telegram bot that generates high-quality images from text prompts, supporting 
 TeleImageGen/
 ├── bot.py                # Main bot script
 ├── requirements.txt      # Python dependencies
-├── .env                  # Environment variables (not included in repo)
-├── .gitignore            # Git ignore file
 ├── LICENSE               # MIT License
 └── README.md             # This file
 ```
